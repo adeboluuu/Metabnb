@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { Routes, Route } from 'react-router-dom'
+import Home from './components/Home.jsx'
 import './App.css'
 
 function App() {
@@ -7,7 +7,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Ade</h1>
+      <Routes>
+      <Route path ='/' element={ <Home/> }/>
+      </Routes>
     </div>
   )
 }
