@@ -7,11 +7,11 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="xl:mx-[100px]">
+      <nav className="mx-10">
         <div className="max-w-7xl mx-auto py-2 sm:px-6 2xl:px-24">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <div className="flex-shrink-0 xl:mr-10 mr-12 mr-0">
+              <div className="flex-shrink-0 xl:mr-10 mr-12 ">
                 <img
                   className=""
                   src={Logo}
@@ -119,7 +119,7 @@ function Nav() {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="md:hidden" id="mobile-menu">
+            <div className="lg:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-1">
 
                 <a
