@@ -6,7 +6,9 @@ import Hero from './Hero';
 import '../assets/styles.css'
 import data from './data'
 import SecondData from './SecondData';
+import Nft from './Nft';
 import Card from '../components/Card';
+import Footer from './Footer';
 
 function Home() {
   const cards = data.map(item => {
@@ -25,7 +27,8 @@ function Home() {
       <section className='lg:flex block '>
         {cards}
       </section>
-      
+      <Nft/>
+      <Footer/>
     </div>
   )
 }

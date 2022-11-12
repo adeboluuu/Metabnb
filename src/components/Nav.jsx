@@ -8,7 +8,7 @@ function Nav() {
   return (
     <div>
       <nav className="mx-10">
-        <div className="max-w-7xl mx-auto py-2 sm:px-6 2xl:px-24">
+        <div className="max-w-7xl mx-auto py-2 xl:px-0 sm:px-6 2xl:px-24">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0 xl:mr-10 mr-12 ">
@@ -31,14 +31,14 @@ function Nav() {
                   </a>
 
                   <a
-                    href="#"
+                    href="#Places"
                     className="  px-1 py-2 rounded-md xl:text-xl text:xs font-medium"
                   >
                     Place to Stay
                   </a>
 
                   <a
-                    href="#"
+                    href="#Nft"
                     className="  px-1 py-2 rounded-md xl:text-xl text:xs font-medium"
                   >
                     NFTs
@@ -130,14 +130,14 @@ function Nav() {
                 </a>
 
                 <a
-                  href="#"
+                  href="Places"
                   className="  block px-1 py-2 rounded-md text-base font-medium"
                 >
                   Place to Stay
                 </a>
 
                 <a
-                  href="#"
+                  href="#Nft"
                   className="  block px-1 py-2 rounded-md text-base font-medium"
                 >
                   NFTs
