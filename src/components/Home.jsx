@@ -5,6 +5,7 @@ import Body from '../components/Body'
 import Hero from './Hero';
 import '../assets/styles.css'
 import data from './data'
+import SecondData from './SecondData';
 import Card from '../components/Card';
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       key={item.id}
       item={item}/>
     )
+    
 })     
   return (
     <div >
