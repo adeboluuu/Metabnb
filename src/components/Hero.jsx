@@ -6,11 +6,17 @@ import Opensea from '../assets/OpenSea.svg'
 
 function Hero() {
   return (
-    <div className='bg-[#A02279] sm:flex block justify-between sm:px-14 px-10 lg:gap-x-2 sm:py-4 py-2'>
-            <img src={Mbtoken} className=' sm:w-44 w-32 -ml-2 py-2'/>
-            <img src={Metamask} className='sm:w-44 w-32 py-2'/>
-            <img src={Opensea} className=' sm:w-44 w-32 py-2'/>
+    <div>
+    <div className='bg-[#A02279] flex  justify-between sm:px-14 px-10 lg:gap-x-2 sm:py-3 py-2 my-2'>
+            <img src={Mbtoken} className=' sm:w-44 w-28 -ml-2 py-2'/>
+            <img src={Metamask} className='sm:w-44 w-28 py-2'/>
+            <img src={Opensea} className=' sm:w-44 w-28 py-2'/>
     </div>
+    <p className='text-5xl text-center my-8'>
+        Inspiration for your next adventure
+        </p>
+    </div>
+
   )
 }
 
