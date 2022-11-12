@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from "react-router-dom";
 import Nav from '../components/Nav'
 import Body from '../components/Body'
+import Hero from './Hero';
 import '../assets/styles.css'
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
     <div >
       <Nav/>
       <Body/>
+      <Hero/>
     </div>
   )
 }
