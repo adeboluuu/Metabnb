@@ -7,7 +7,7 @@ function Body() {
         <div className='md:grid lg:grid-cols-5 gap-3 block sm:py-20 py-5'>
         <div className='col-span-3'>
             <p className='lg:mb-8 mb-4 md:text-6xl md:leading-[6rem] text-5xl leading-tight py-3   break-normal'>Rent a <span className='text-[#A02279]'>Place</span> away from <span className='text-[#A02279]'>Home</span> in the <span className='text-[#A02279]'>Metaverse</span></p>
-            <p className='max-w-xl md:mb-16 mb-8 sm:text-2xl break-normal'>We provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
+            <p className='lg:max-w-[44rem] max-w-xl md:mb-16 mb-8 sm:text-2xl break-normal'>We provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
             <div className=" flex items-center">
             <div className="flex border rounded">
                 <input

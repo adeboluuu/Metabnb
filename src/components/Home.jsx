@@ -20,9 +20,10 @@ function Home() {
       <Nav/>
       <Body/>
       <Hero/>
-      <section className='flex '>
+      <section className='lg:flex block '>
         {cards}
       </section>
+      
     </div>
   )
 }
