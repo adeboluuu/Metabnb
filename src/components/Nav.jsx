@@ -4,6 +4,7 @@ import Logo from '../assets/Logo.png'
 import Modal from "./Modal";
 import Metamask from '../assets/Mask.png'
 import Walletconnect from '../assets/Walletconnect.png'
+import Chevron from '../assets/Down Chevron.png'
 
 
 function Nav() {
@@ -116,11 +117,11 @@ function Nav() {
           <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
           >
-            <div className="relative my-6 mx-auto w-[35rem]">
+            <div className="relative my-6 mx-auto sm:w-[35rem] w-[25rem]">
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
-                <div className="p-4">
+                <div className="p-4 pb-2">
                   <span className="text-2xl font-normal text-center">
                     Connect Wallet
                   </span>
@@ -139,8 +140,11 @@ function Nav() {
                   <p className="my-4 text-[#333333] text-base">
                   Choose your preferred wallet:
                   </p>
-                  <div className="flex text-center items-center">
-                    <span><img src={Metamask}className='mr-4'/></span><span>Metamask</span><img src={Metamask}className='float-right justify-right'/>
+                  <div className="my-3 p-3 rounded-xl flex text-center items-center border-[1px] border-[CFD8DC]">
+                    <span><img src={Metamask}className='mr-4'/></span><span>Metamask</span><span className='float-right items-end'><img src={Chevron}/></span>
+                  </div>
+                  <div className="p-3 rounded-xl flex text-center items-center border-[1px] border-[CFD8DC]">
+                    <span><img src={Walletconnect}className='mr-4'/></span><span>WalletConnect</span><span className='float-right items-end'><img src={Chevron}/></span>
                   </div>
                 </div>
               </div>
@@ -196,7 +200,7 @@ null)}
                   Community
                 </a>
               </div>
-              <button  href={Modal} className="px-0 py-2 mr-4 bg-[#A02279] text-white w-[10.6rem] rounded-[10px]   xl:text-xl text:xs font-medium">Connect wallet</button>
+              <button  onClick={() => setShowModal(true)} className="px-0 py-2 mr-4 bg-[#A02279] text-white w-[10.6rem] rounded-[10px]   xl:text-xl text:xs font-medium">Connect wallet</button>
               
             </div>
           )}
