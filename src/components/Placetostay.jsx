@@ -1,8 +1,11 @@
 import React from 'react'
+import Nav from './Nav'
 
 function Placetostay() {
   return (
-    <div>Placetostay</div>
+    <div>
+        <Nav/>
+    </div>
   )
 }
 
