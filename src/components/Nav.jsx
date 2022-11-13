@@ -16,9 +16,9 @@ function Nav() {
         <div className="max-w-7xl mx-auto py-2 xl:px-0 sm:px-6 2xl:px-24">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <div className="flex-shrink-0 xl:mr-10 mr-12 ">
+              <div className="flex-shrink-0 xl:mr-7 mr-12 ">
                 <img
-                  className=""
+                  className="ml-4"
                   src={Logo}
                   alt="Metabnb"
                 />
@@ -109,7 +109,7 @@ function Nav() {
               </button>
               
             </div>
-            <button    onClick={() => setShowModal(true)} className="px-0 py-2 hidden md:block bg-[#A02279] text-white w-[10.6rem] rounded-[10px] float-right  xl:text-xl text:xs font-medium">Connect wallet</button>
+            <button    onClick={() => setShowModal(true)} className="px-0 py-2 hidden md:block bg-[#A02279] text-white w-[10.6rem] rounded-[10px] float-right  xl:text-lg text:xs font-medium">Connect wallet</button>
 
     <>
       {showModal ? (
@@ -122,7 +122,7 @@ function Nav() {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
                 <div className="p-4 pb-2">
-                  <span className="text-2xl font-normal text-center">
+                  <span className="text-xl font-normal text-center">
                     Connect Wallet
                   </span>
                   <button
@@ -140,11 +140,11 @@ function Nav() {
                   <p className="my-4 text-[#333333] text-base">
                   Choose your preferred wallet:
                   </p>
-                  <div className="my-3 p-3 rounded-xl flex text-center items-center border-[1px] border-[CFD8DC]">
-                    <span><img src={Metamask}className='mr-4'/></span><span>Metamask</span><span className='float-right items-end'><img src={Chevron}/></span>
+                  <div class="flex justify-between  cursor-pointer rounded-xl my-4 border border-[#CFD8DC] p-2">
+                    <div class="flex items-center gap-x-2 "><img src={Metamask} alt="metamask"/><p>Metamask</p></div><button class="text-2xl">&gt;</button>
                   </div>
-                  <div className="p-3 rounded-xl flex text-center items-center border-[1px] border-[CFD8DC]">
-                    <span><img src={Walletconnect}className='mr-4'/></span><span>WalletConnect</span><span className='float-right items-end'><img src={Chevron}/></span>
+                  <div class="flex justify-between  cursor-pointer rounded-xl my-4 border border-[#CFD8DC] p-2">
+                    <div class="flex items-center gap-x-2 "><img src={Walletconnect} alt="metamask"/><p>WalletConnect</p></div><button class="text-2xl">&gt;</button>
                   </div>
                 </div>
               </div>
