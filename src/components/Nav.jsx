@@ -31,7 +31,7 @@ function Nav() {
                   </a>
 
                   <a
-                    href="#Places"
+                    href="#Inspiration"
                     className="  px-1 py-2 rounded-md xl:text-xl text:xs font-medium"
                   >
                     Place to Stay
@@ -130,7 +130,7 @@ function Nav() {
                 </a>
 
                 <a
-                  href="Places"
+                  href="Inspiration"
                   className="  block px-1 py-2 rounded-md text-base font-medium"
                 >
                   Place to Stay

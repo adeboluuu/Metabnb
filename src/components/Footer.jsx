@@ -11,80 +11,80 @@ function Footer() {
 <footer className="p-4 text-white sm:p-6 bg-[#1D1D1E]">
     <div className="md:flex mx-10 ">
 
-        <div className="grid grid-cols-3 gap-14 sm:gap-16 sm:grid-cols-4">
-        <div className="-mt-1 mr-[6rem]">
+        <div className="grid grid-cols-4 gap-6 sm:gap-16 sm:grid-cols-4">
+        <div className="-">
         <ul className="">
-                    <li className="mb-24">
-                    <p href="https://flowbite.com/ " className="flex items-center mr-9">
-                     <img src={Logo} className="h-8" alt="Logo"/>
+                    <li className="mb-10 sm:mb-24 xl:mt-0 -mt-2">
+                    <p href="# " className="flex items-center xl:mr-20 lg:mr-10">
+                     <img src={Logo} className="sm:w-96  w-[9rem] h-8" alt="Logo"/>
                     </p>
                     </li>
                     <li>
-                        <p className="flex gap-7">
-                            <img src={Facebook}/>
-                            <img src={Instagram}/>
-                            <img src={Twitter}/>
+                        <p className="block sm:flex sm:gap-7 my-4">
+                            <img src={Facebook} className='my-2'/>
+                            <img src={Instagram}className='my-2'/>
+                            <img src={Twitter} className='my-2'/>
                         </p>
                     </li>
                  
                 </ul>
         </div>
             <div>
-                <h2 className="mb-6 text-lg text-white font-bold ">Community</h2>
+                <h2 className="mb-6 sm:text-lg text-[13px] text-white font-bold ">Community</h2>
                 <ul className="">
                     <li className="my-2">
-                        <p href="#Nft" className=" text-sm hover:underline">NFT</p>
+                        <p href="#Nft" className=" text-xs hover:underline">NFT</p>
                     </li>
                     <li className="my-2">
-                        <p href="#" className=" text-sm hover:underline">Tokens</p>
+                        <p href="#" className=" text-xs hover:underline">Tokens</p>
                     </li>
                     <li className="my-2">
-                        <p href="#" className=" text-sm hover:underline">Landlords</p>
+                        <p href="#" className=" text-xs hover:underline">Landlords</p>
                     </li>    
                     <li className="my-2">
-                        <p href="#" className=" text-sm hover:underline">Discord</p>
+                        <p href="#" className=" text-xs hover:underline">Discord</p>
                     </li>                           
                 </ul>
             </div>
             <div>
-                <h2 className="mb-6 text-lg text-white font-bold ">Places</h2>
+                <h2 className="mb-6 sm:text-lg text-[13px] text-white font-bold ">Places</h2>
                 <ul className="">
                     <li className="mb-2">
-                        <p href="#" className=" text-sm hover:underline ">Castle</p>
+                        <p href="#" className=" text-xs hover:underline ">Castle</p>
                     </li>
                     <li className='my-2'>
-                        <p href="#" className=" text-sm hover:underline">Farms</p>
+                        <p href="#" className=" text-xs hover:underline">Farms</p>
                     </li>
                     <li className="my-2">
-                        <p href="#" className=" text-sm hover:underline">Beach</p>
+                        <p href="#" className=" text-xs hover:underline">Beach</p>
                     </li>  
                     <li className="my-2">
-                        <p href="#" className=" text-sm hover:underline">Learn More</p>
+                        <p href="#" className=" text-xs hover:underline">Learn More</p>
                     </li>                                       
                 </ul>
             </div>
             
             <div>
-                <p className="mb-6 text-lg text-white font-bold ">About us</p>
+                <p className="mb-6 sm:text-lg text-[13px] text-white font-bold ">About us</p>
                 <ul className="">
                     <li className="mb-2">
-                        <p href="#" className=" text-sm hover:underline ">Road map</p>
+                        <p href="#" className=" text-xs hover:underline ">Road map</p>
                     </li>
                     <li className="mb-2">
-                        <p href="#" className=" text-sm hover:underline">Creators</p>
+                        <p href="#" className=" text-xs hover:underline">Creators</p>
                     </li>
                     <li className="mb-2">
-                        <p href="#" className=" text-sm hover:underline">Career</p>
+                        <p href="#" className=" text-xs hover:underline">Career</p>
                     </li>  
                     <li className="mb-2">
-                        <p href="#" className=" text-sm hover:underline">Contact us</p>
+                        <p href="#" className=" text-xs hover:underline">Contact us</p>
                     </li>                                      
                 </ul>
             </div>
         </div>
     </div>
     <div className=" mx-10 sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm ">© 2022 Metabnb
+        <span className="text-[13px] ">© 2022 Metabnb
         </span>
 
     </div>

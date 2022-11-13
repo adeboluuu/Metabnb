@@ -13,7 +13,7 @@ function Body() {
                 {/* Reduce width on smaller devices */}
                 <input
                     type="text"
-                    className="block xl:w-96 lg:w-80 md:w-96 w-60 px-4 py-2 border rounded-md  focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                    className="block xl:w-96 lg:w-80 md:w-96 w-40 px-4 py-2 border rounded-md  focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
                     placeholder="Search for location"
                 />
                 <button className="px-4 lg:w-36 text-white bg-[#A02279] border-l rounded ">
