@@ -23,7 +23,7 @@ function Home() {
       <Nav/>
       <Body/>
       <Hero/>
-      <section className='lg:flex block '>
+      <section className='flex flex-wrapper '>
         {cards}
       </section>
       <Nft/>

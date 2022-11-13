@@ -6,3 +6,7 @@
     box-sizing: border-box;
     font-family: 'Red Rose','Sans-serif';
 }
+
+.flex-wrapper {
+    flex-wrap: wrap;
+}
