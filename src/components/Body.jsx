@@ -10,6 +10,7 @@ function Body() {
             <p className='lg:max-w-[44rem] max-w-xl md:mb-16 mb-8 sm:text-2xl break-normal'>We provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
             <div className=" flex items-center">
             <div className="flex border rounded">
+                {/* Reduce width on smaller devices */}
                 <input
                     type="text"
                     className="block xl:w-96 lg:w-80 md:w-96 w-60 px-4 py-2 border rounded-md  focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"

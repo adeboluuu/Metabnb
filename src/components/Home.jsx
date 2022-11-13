@@ -5,10 +5,9 @@ import Body from '../components/Body'
 import Hero from './Hero';
 import '../assets/styles.css'
 import data from './data'
-import SecondData from './SecondData';
 import Nft from './Nft';
 import Card from '../components/Card';
-
+import Footer from '../components/Footer'
 
 function Home() {
   const cards = data.map(item => {
@@ -28,6 +27,7 @@ function Home() {
         {cards}
       </section>
       <Nft/>
+      <Footer/>
 
     </div>
   )
