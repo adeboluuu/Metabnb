@@ -15,7 +15,7 @@ function Footer() {
         <div className="-">
         <ul className="">
                     <li className="mb-10 sm:mb-24 xl:mt-0 -mt-2">
-                    <p href="# " className="flex items-center xl:mr-20 lg:mr-10">
+                    <p href="/" className="flex items-center xl:mr-20 lg:mr-10">
                      <img src={Logo} className="sm:w-96  w-[9rem] h-8" alt="Logo"/>
                     </p>
                     </li>
@@ -36,13 +36,13 @@ function Footer() {
                         <p href="#Nft" className=" text-xs hover:underline">NFT</p>
                     </li>
                     <li className="my-2">
-                        <p href="#" className=" text-xs hover:underline">Tokens</p>
+                        <p href="/" className=" text-xs hover:underline">Tokens</p>
                     </li>
                     <li className="my-2">
-                        <p href="#" className=" text-xs hover:underline">Landlords</p>
+                        <p href="/" className=" text-xs hover:underline">Landlords</p>
                     </li>    
                     <li className="my-2">
-                        <p href="#" className=" text-xs hover:underline">Discord</p>
+                        <p href="/" className=" text-xs hover:underline">Discord</p>
                     </li>                           
                 </ul>
             </div>
@@ -50,16 +50,16 @@ function Footer() {
                 <h2 className="mb-6 sm:text-lg text-[13px] text-white font-bold ">Places</h2>
                 <ul className="">
                     <li className="mb-2">
-                        <p href="#" className=" text-xs hover:underline ">Castle</p>
+                        <p href="/" className=" text-xs hover:underline ">Castle</p>
                     </li>
                     <li className='my-2'>
-                        <p href="#" className=" text-xs hover:underline">Farms</p>
+                        <p href="/" className=" text-xs hover:underline">Farms</p>
                     </li>
                     <li className="my-2">
-                        <p href="#" className=" text-xs hover:underline">Beach</p>
+                        <p href="/" className=" text-xs hover:underline">Beach</p>
                     </li>  
                     <li className="my-2">
-                        <p href="#" className=" text-xs hover:underline">Learn More</p>
+                        <p href="/" className=" text-xs hover:underline">Learn More</p>
                     </li>                                       
                 </ul>
             </div>
@@ -68,16 +68,16 @@ function Footer() {
                 <p className="mb-6 sm:text-lg text-[13px] text-white font-bold ">About us</p>
                 <ul className="">
                     <li className="mb-2">
-                        <p href="#" className=" text-xs hover:underline ">Road map</p>
+                        <p href="/" className=" text-xs hover:underline ">Road map</p>
                     </li>
                     <li className="mb-2">
-                        <p href="#" className=" text-xs hover:underline">Creators</p>
+                        <p href="/" className=" text-xs hover:underline">Creators</p>
                     </li>
                     <li className="mb-2">
-                        <p href="#" className=" text-xs hover:underline">Career</p>
+                        <p href="/" className=" text-xs hover:underline">Career</p>
                     </li>  
                     <li className="mb-2">
-                        <p href="#" className=" text-xs hover:underline">Contact us</p>
+                        <p href="/" className=" text-xs hover:underline">Contact us</p>
                     </li>                                      
                 </ul>
             </div>

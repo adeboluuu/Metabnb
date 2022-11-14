@@ -11,7 +11,7 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   const [showModal, setShowModal] = React.useState(false);
   return (
-    <div>
+    <div className="sticky top-0 z-30 w-full bg-white py-2">
       <nav className="mx-10">
         <div className="max-w-7xl mx-auto py-2 xl:px-0 sm:px-6 2xl:px-24">
           <div className="flex items-center justify-between h-16">
@@ -25,7 +25,7 @@ function Nav() {
               </div>
               <div className="hidden lg:block">
                 <div>
-           <div className="xl:mx-30 ml-20 mr-16 xl:space-between lg:justify-between  items-center flex  xl:space-x-9 lg:space-x-2">
+           <div className="xl:ml-24 lg:mx-0 xl:space-between lg:justify-between  items-center flex  xl:space-x-9 lg:space-x-2">
 
 
                   <a

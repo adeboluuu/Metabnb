@@ -4,6 +4,7 @@ import Nav from './Nav'
 import placedata from '../components/placedata'
 import Filter from '../assets/filter.png'
 import Placecards from './Place-cards';
+import Footer from './Footer';
 
 function Placetostay() {
     const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,7 @@ function Placetostay() {
     <div>
         <Nav/>
         <nav className="mx-10 sticky">
-        <div className="max-w-7xl mx-auto py-10 xl:px-0 sm:px-6 2xl:px-24">
+        <div className="max-w-7xl mx-auto py-10 xl:px-0 sm:px-4 2xl:px-24">
           <div className=" items-center lg: l gap-x-2 flex md:gap-x-4 h-16">
             <div className="flex items-center">
               <div className="hidden lg:block">
@@ -27,14 +28,14 @@ function Placetostay() {
 
 
                   <a
-                    href="#"
+                    href="/"
                     className="  px-1 py-2 rounded-md  font-medium"
                   >
 Restaurant
                   </a>
 
                   <a
-                    href="#Inspiration"
+                    href="/"
                     className="  px-1 py-2 rounded-md  font-medium"
                   >
                    Cottage
@@ -154,13 +155,13 @@ Restaurant
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-1">
 
                 <a
-                  href="#"
+                  href="/"
                   className="  block px-1 py-2 rounded-md font-medium"
                 >Restaurant
                 </a>
 
                 <a
-                  href="Inspiration"
+                  href=""
                   className="  block px-1 py-2 rounded-md font-medium"
                 >
                  Cottage
@@ -174,35 +175,35 @@ Castle
                 </a>
 
                 <a
-                  href="#"
+                  href="/"
                   className="  block px-1 py-2 rounded-md font-medium"
                 >
                   Fancast city
                 </a>
 
                 <a
-                  href="#"
+                  href="/"
                   className="  block px-1 py-2 rounded-md font-medium"
                 >
                   Beach
                 </a>
                 
                 <a
-                  href="#"
+                  href="/"
                   className="  block px-1 py-2 rounded-md font-medium"
                 >
                   Cabins
                 </a> 
                 
                 <a
-                  href="#"
+                  href="/"
                   className="  block px-1 py-2 rounded-md font-medium"
                 >
                 Off -grid
                 </a>
                 
                 <a
-                  href="#"
+                  href="/"
                   className="  block px-1 py-2 rounded-md font-medium"
                 >
                   Farms
@@ -218,7 +219,7 @@ Castle
       <section className='flex flex-wrapper '>
         {cards}
       </section>
-
+<Footer/>
     </div>
   )
 }
