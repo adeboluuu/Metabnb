@@ -30,7 +30,38 @@ export default [
     },
     {
         id: 8,
-        img: "Frame 151 (3).png",
+        img: "Frame 151 (4).png",
     },
-
+    {
+        id: 9,
+        img: "Frame 151 (8).png",
+    },
+    {
+        id: 10,
+        img: "Frame 151 (9).png",
+    },
+    {
+        id: 11,
+        img: "Frame 151 (10).png",
+    },
+    {
+        id: 12,
+        img: "Frame 151 (11).png",
+    },
+    {
+        id: 13,
+        img: "Frame 151 (12).png",
+    },  
+    {
+        id:14 ,
+        img: "Frame 151 (13).png",
+    }, 
+    {
+        id: 15,
+        img: "Frame 151 ().png",
+    },
+    {
+        id: 16,
+        img: "Frame 151 ().png",
+    }, 
 ]
