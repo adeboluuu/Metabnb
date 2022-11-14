@@ -23,7 +23,7 @@ function Body() {
         </div>
         </div>
         <div>
-            <img src={Grid} alt='Grid'className='xs:max-w-md mx-auto sm:mt-5 mt-10'/>
+            <img src={Grid} alt='Grid'className='sm:max-w-md mx-auto sm:mt-5 mt-10'/>
         </div>
         </div>
 
