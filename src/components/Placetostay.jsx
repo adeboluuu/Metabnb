@@ -1,16 +1,25 @@
 import React, { useState }  from 'react'
 import { Transition } from "@headlessui/react";
 import Nav from './Nav'
+import placedata from '../components/placedata'
 import Filter from '../assets/filter.png'
+import Placecards from './Place-cards';
 
 function Placetostay() {
     const [isOpen, setIsOpen] = useState(false);
+    const cards = placedata.map(item => {
+      return (
+        <Placecards
+        key={item.id}
+        item={item}/>
+      )
+    })
   return (
     <div>
         <Nav/>
         <nav className="mx-10 sticky">
         <div className="max-w-7xl mx-auto py-10 xl:px-0 sm:px-6 2xl:px-24">
-          <div className=" items-center lg: l gap-x-2 flex md:gap-x-9 h-16">
+          <div className=" items-center lg: l gap-x-2 flex md:gap-x-4 h-16">
             <div className="flex items-center">
               <div className="hidden lg:block">
                 <div>
@@ -205,6 +214,11 @@ Castle
           )}
           </Transition>
       </nav>
+
+      <section className='flex flex-wrapper '>
+        {cards}
+      </section>
+
     </div>
   )
 }
