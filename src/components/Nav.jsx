@@ -25,18 +25,18 @@ function Nav() {
               </div>
               <div className="hidden lg:block">
                 <div>
-           <div className="xl:mx-30 ml-17 mr-13 xl:space-between lg:justify-between  items-center flex  xl:space-x-9 lg:space-x-2">
+           <div className="xl:mx-30 ml-20 mr-16 xl:space-between lg:justify-between  items-center flex  xl:space-x-9 lg:space-x-2">
 
 
                   <a
-                    href="#"
+                    href="/"
                     className="  px-1 py-2 rounded-md xl:text-lg text:xs font-medium"
                   >
                     Home
                   </a>
 
                   <a
-                    href="#Inspiration"
+                    href="/place-to-stay"
                     className="  px-1 py-2 rounded-md xl:text-lg text:xs font-medium"
                   >
                     Place to Stay
@@ -50,7 +50,7 @@ function Nav() {
                   </a>
 
                   <a
-                    href="#"
+                    href="/"
                     className="  px-1 py-2 rounded-md xl:text-lg text:xs font-medium"
                   >
                     Community
@@ -173,14 +173,14 @@ null)}
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-1">
 
                 <a
-                  href="#"
+                  href="/"
                   className="  block px-1 py-2 rounded-md text-base font-medium"
                 >
                   Home
                 </a>
 
                 <a
-                  href="Inspiration"
+                  href="/place-to-stay"
                   className="  block px-1 py-2 rounded-md text-base font-medium"
                 >
                   Place to Stay
@@ -194,7 +194,7 @@ null)}
                 </a>
 
                 <a
-                  href="#"
+                  href="/"
                   className="  block px-1 py-2 rounded-md text-base font-medium"
                 >
                   Community
