@@ -24,7 +24,7 @@ function Nav() {
                 />
               </div>
               <div className="hidden lg:block">
-                <div>
+                <div className="xl:ml-11 lg:ml-9">
            <div className="xl:ml-24 lg:mx-0 xl:space-between lg:justify-between  items-center flex  xl:space-x-9 lg:space-x-2">
 
 
