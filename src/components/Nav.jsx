@@ -15,8 +15,8 @@ function Nav() {
       <nav className="mx-10">
         <div className="max-w-7xl mx-auto py-2 xl:px-0 sm:px-6 2xl:px-24">
           <div className="flex items-center justify-between h-16">
-            <div className="flex items-center">
-              <div className="flex-shrink-0 xl:mr-7 mr-12 ">
+            <div className="flex items-center ">
+              <div className="flex-shrink-0 xl:mr:12 mr-12 ">
                 <img
                   className="ml-4"
                   src={Logo}
@@ -25,33 +25,33 @@ function Nav() {
               </div>
               <div className="hidden lg:block">
                 <div>
-           <div className="xl:mx-30 mx-24 justify-center items-center flex  space-x-7">
+           <div className="xl:mx-30 ml-17 mr-13 xl:space-between lg:justify-between  items-center flex  xl:space-x-9 lg:space-x-2">
 
 
                   <a
                     href="#"
-                    className="  px-1 py-2 rounded-md xl:text-xl text:xs font-medium"
+                    className="  px-1 py-2 rounded-md xl:text-lg text:xs font-medium"
                   >
                     Home
                   </a>
 
                   <a
                     href="#Inspiration"
-                    className="  px-1 py-2 rounded-md xl:text-xl text:xs font-medium"
+                    className="  px-1 py-2 rounded-md xl:text-lg text:xs font-medium"
                   >
                     Place to Stay
                   </a>
 
                   <a
                     href="#Nft"
-                    className="  px-1 py-2 rounded-md xl:text-xl text:xs font-medium"
+                    className="  px-1 py-2 rounded-md xl:text-lg text:xs font-"
                   >
                     NFTs
                   </a>
 
                   <a
                     href="#"
-                    className="  px-1 py-2 rounded-md xl:text-xl text:xs font-medium"
+                    className="  px-1 py-2 rounded-md xl:text-lg text:xs font-medium"
                   >
                     Community
                   </a>
@@ -200,7 +200,7 @@ null)}
                   Community
                 </a>
               </div>
-              <button  onClick={() => setShowModal(true)} className="px-0 py-2 mr-4 bg-[#A02279] text-white w-[10.6rem] rounded-[10px]   xl:text-xl text:xs font-medium">Connect wallet</button>
+              <button  onClick={() => setShowModal(true)} className="px-0 py-2 mr-4 bg-[#A02279] text-white w-[10.6rem] rounded-[10px]   xl:text-lg text:xs font-medium">Connect wallet</button>
               
             </div>
           )}
