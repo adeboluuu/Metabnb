@@ -14,7 +14,7 @@ function Nft() {
             </div>
             {/* Reduce image size on smaller devices */}
             <div className=''>
-                <img src={Frame} className='sm:h-[370px] h-[290px] sm:max-w-[276rem] w-auto mx-auto mt-3'/>
+                <img src={Frame} className='sm:h-[255px] h-[290px]  sm:max-w-[276rem] w-[200rem] mx-auto mt-3'/>
             </div>
         </div>
     </div>
