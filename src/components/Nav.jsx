@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import Logo from '../assets/Logo.png'
 import Modal from "./Modal";
+import {Link } from "react-router-dom";
 import Metamask from '../assets/Mask.png'
 import Walletconnect from '../assets/Walletconnect.png'
 import Chevron from '../assets/Down Chevron.png'
@@ -28,33 +29,32 @@ function Nav() {
            <div className="xl:ml-24 lg:mx-0 xl:space-between lg:justify-between  items-center flex  xl:space-x-9 lg:space-x-2">
 
 
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="  px-1 py-2 rounded-md xl:text-lg text:xs font-medium"
                   >
                     Home
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/place-to-stay"
+                  <Link
+                    to="/place-to-stay"
                     className="  px-1 py-2 rounded-md xl:text-lg text:xs font-medium"
-                  >
-                    Place to Stay
-                  </a>
+                  >Place to Stay
+                  </Link>
 
-                  <a
-                    href="#Nft"
+                  <Link
+                    to="#Nft"
                     className="  px-1 py-2 rounded-md xl:text-lg text:xs font-"
                   >
                     NFTs
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="  px-1 py-2 rounded-md xl:text-lg text:xs font-medium"
                   >
                     Community
-                  </a>
+                  </Link>
 
                 </div>
 
@@ -172,33 +172,33 @@ null)}
             <div className="lg:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-1">
 
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className="  block px-1 py-2 rounded-md text-base font-medium"
                 >
                   Home
-                </a>
+                </Link>
 
-                <a
-                  href="/place-to-stay"
+                <Link
+                  to="/place-to-stay"
                   className="  block px-1 py-2 rounded-md text-base font-medium"
                 >
                   Place to Stay
-                </a>
+                </Link>
 
-                <a
-                  href="#Nft"
+                <Link
+                  to="#Nft"
                   className="  block px-1 py-2 rounded-md text-base font-medium"
                 >
                   NFTs
-                </a>
+                </Link>
 
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className="  block px-1 py-2 rounded-md text-base font-medium"
                 >
                   Community
-                </a>
+                </Link>
               </div>
               <button  onClick={() => setShowModal(true)} className="px-0 py-2 mr-4 bg-[#A02279] text-white w-[10.6rem] rounded-[10px]   xl:text-lg text:xs font-medium">Connect wallet</button>
               
