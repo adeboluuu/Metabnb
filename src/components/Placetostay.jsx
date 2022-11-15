@@ -24,7 +24,7 @@ function Placetostay() {
             <div className="flex items-center">
               <div className="hidden lg:block">
                 <div>
-           <div className="xl:mx-30 mx-5 justify-center xl:text-lg lg:text-md text:xs items-center flex  space-x-12">
+           <div className="xl:mx-30 mx-5 justify-center xl:text-lg lg:text-md text:xs items-center flex  xl:space-x-12 lg:space-x-3">
 
 
                   <a
