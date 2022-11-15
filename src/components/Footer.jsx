@@ -11,11 +11,11 @@ function Footer() {
 <footer className="p-4 text-white sm:p-6 bg-[#1D1D1E]">
     <div className="md:flex mx-10 ">
 
-        <div className="grid grid-cols-4 gap-6 sm:gap-16 sm:grid-cols-4">
+        <div className="grid grid-cols-2 gap-6 sm:gap-16 sm:grid-cols-4">
         <div className="-">
         <ul className="">
-                    <li className="mb-10 sm:mb-24 xl:mt-0 -mt-2">
-                    <p href="/" className="flex items-center xl:mr-20 lg:mr-10">
+                    <li className="mb-1 sm:mb-24 xl:mt-0 -mt-2">
+                    <p href="/" className="flex items-center xl:mr-20 lg:mr-10 sm:mr-0">
                      <img src={Logo} className="sm:w-96  w-[9rem] h-8" alt="Logo"/>
                     </p>
                     </li>
